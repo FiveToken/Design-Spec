@@ -2,7 +2,7 @@
 
 The private key / mnemonic words management plan is independently designed by FiveToken. Details as below: 
 
-![image-20210810184314419](/Users/hao/Library/Application Support/typora-user-images/image-20210810184314419.png)
+![privatekey](pk.png)
 
 1. After the password derives the private key, the private key takes bitwise XOR to replace AES as the encryption solution.
 
@@ -20,5 +20,5 @@ The private key / mnemonic words management plan is independently designed by Fi
 
 Multiple private keys sk_i are stored locally. Each private key is protected by the password pwd_i set by the user. After being encrypted, each private key is stored locally in the following format:  
 
-![](/Users/hao/Library/Application Support/typora-user-images/image-20210811160759312.png)
+![salt](salt.png)
 
